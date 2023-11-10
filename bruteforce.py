@@ -8,7 +8,7 @@ guess = ""
 while True:
     if passcheck(guess) == True:
         break
-    guess = random.randrange(16119190000001, 16119199999999)
+    guess = random.randrange(10000000000001, 16119199999999)
     count = count + 1      # 16119192315184
     print("ATTEMPT " + str(count) + " UNSUCCESSFUL... REROLL: " + str(guess) + " " + str(return_to_text(guess))) 
     time.sleep(0.5)
